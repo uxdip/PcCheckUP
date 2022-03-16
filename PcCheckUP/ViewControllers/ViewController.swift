@@ -6,14 +6,24 @@
 //
 
 import Cocoa
-
+import SystemKit
+import Foundation
 class ViewController: NSViewController {
+    
+   
 
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        print("dip")
+       
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear() {
+            }
 
     override var representedObject: Any? {
         didSet {
@@ -21,6 +31,7 @@ class ViewController: NSViewController {
         }
     }
 
+    
 
 }
 
