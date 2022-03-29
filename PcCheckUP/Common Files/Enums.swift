@@ -17,5 +17,13 @@ enum InfoButton:String {
     case cpuUsage = "CpuUsage"
     case about = "About"
     
-    
+}
+
+enum osName: String {
+    case siera = "10.12"
+    case highSiera = "10.13"
+    case mojave = "10.14"
+    case catalina = "10.15"
+    case bigSur = "11.6"
+    //case monterey =
 }

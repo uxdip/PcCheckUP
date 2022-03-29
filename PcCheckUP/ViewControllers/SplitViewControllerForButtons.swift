@@ -6,7 +6,7 @@
 //
 
 import Cocoa
-import SystemKit
+
 import GBDeviceInfo
 
 
@@ -29,13 +29,13 @@ class SplitViewControllerForButtons: NSViewController{
         switch sender.tag {
         case 0: splitViewForDetail?.buttonInfo = .systemInformation
             
-        case 1: splitViewForDetail?.buttonInfo = .systemInformation
-        case 2: splitViewForDetail?.buttonInfo = .systemInformation
-        case 3: splitViewForDetail?.buttonInfo = .systemInformation
-        case 4: splitViewForDetail?.buttonInfo = .systemInformation
-        case 5: splitViewForDetail?.buttonInfo = .systemInformation
-        case 6: splitViewForDetail?.buttonInfo = .systemInformation
-        case 7: splitViewForDetail?.buttonInfo = .systemInformation
+        case 1: splitViewForDetail?.buttonInfo = .hardware
+        case 2: splitViewForDetail?.buttonInfo = .os
+        case 3: splitViewForDetail?.buttonInfo = .os
+        case 4: splitViewForDetail?.buttonInfo = .graphChart
+        case 5: splitViewForDetail?.buttonInfo = .battery
+        case 6: splitViewForDetail?.buttonInfo = .cpuUsage
+        case 7: splitViewForDetail?.buttonInfo = .about
         default:
             break
         }

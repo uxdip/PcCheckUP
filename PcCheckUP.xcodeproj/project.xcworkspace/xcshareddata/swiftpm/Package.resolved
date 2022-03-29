@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SystemKit",
+        "repositoryURL": "git@github.com:virajchitnis/SystemKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "50404686f862bc373829f33a8abede788cd8de19",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

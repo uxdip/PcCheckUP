@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,17 +12,21 @@
 		3E72081A27E061FA00A1E204 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081927E061FA00A1E204 /* SplitViewController.swift */; };
 		3E72081C27E06A7A00A1E204 /* SplitViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */; };
 		3E72081E27E0709400A1E204 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081D27E0709300A1E204 /* Extensions.swift */; };
-		3E78432627DAFD2E000CCF07 /* DeviceGuru in Frameworks */ = {isa = PBXBuildFile; productRef = 3E78432527DAFD2E000CCF07 /* DeviceGuru */; };
 		3E78432D27DB5379000CCF07 /* PcCheckUP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78432C27DB5379000CCF07 /* PcCheckUP.m */; };
 		3E78432F27DB5414000CCF07 /* PCIDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78432727DB4F83000CCF07 /* PCIDriverKit.framework */; };
 		3E78433327DB642D000CCF07 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78433227DB642D000CCF07 /* DriverKit.framework */; };
+		3E92E63A27E1C53A0007884D /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63427E1C53A0007884D /* Battery.swift */; };
+		3E92E63B27E1C53A0007884D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E92E63527E1C53A0007884D /* Info.plist */; };
+		3E92E63C27E1C53A0007884D /* IOReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63627E1C53A0007884D /* IOReturn.swift */; };
+		3E92E63D27E1C53A0007884D /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63727E1C53A0007884D /* Process.swift */; };
+		3E92E63E27E1C53A0007884D /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63827E1C53A0007884D /* System.swift */; };
 		3EAB927A27D86DFE0029C4C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB927927D86DFE0029C4C5 /* AppDelegate.swift */; };
 		3EAB927C27D86DFE0029C4C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB927B27D86DFE0029C4C5 /* ViewController.swift */; };
 		3EAB927F27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB927D27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld */; };
 		3EAB928127D86E020029C4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB928027D86E020029C4C5 /* Assets.xcassets */; };
 		3EAB928427D86E020029C4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB928227D86E020029C4C5 /* Main.storyboard */; };
 		3EAB928D27D87CE70029C4C5 /* SplitViewControllerForButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */; };
-		3ED3CC3027D9D56000BC80F9 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3ED3CC2F27D9D56000BC80F9 /* SystemKit */; };
+		3EC9097327EAE744002B3A7C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9097227EAE744002B3A7C /* GraphViewController.swift */; };
 		9D09CCDFC94BE1F71E762925 /* Pods_PcCheckUP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019ADBAC66E003EEBBE9C5FF /* Pods_PcCheckUP.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,12 @@
 		3E78432C27DB5379000CCF07 /* PcCheckUP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcCheckUP.m; sourceTree = "<group>"; };
 		3E78432E27DB53BB000CCF07 /* PcCheckUP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PcCheckUP-Bridging-Header.h"; sourceTree = "<group>"; };
 		3E78433227DB642D000CCF07 /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
+		3E92E63427E1C53A0007884D /* Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		3E92E63527E1C53A0007884D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E92E63627E1C53A0007884D /* IOReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOReturn.swift; sourceTree = "<group>"; };
+		3E92E63727E1C53A0007884D /* Process.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		3E92E63827E1C53A0007884D /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		3E92E63927E1C53A0007884D /* SystemKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemKit.h; sourceTree = "<group>"; };
 		3EAB927627D86DFE0029C4C5 /* PcCheckUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PcCheckUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAB927927D86DFE0029C4C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EAB927B27D86DFE0029C4C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +56,7 @@
 		3EAB928527D86E020029C4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAB928627D86E020029C4C5 /* PcCheckUP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PcCheckUP.entitlements; sourceTree = "<group>"; };
 		3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewControllerForButtons.swift; sourceTree = "<group>"; };
+		3EC9097227EAE744002B3A7C /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		79162F46A226C49194C58B6D /* Pods-PcCheckUP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.debug.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD654FDCE6B55CD4C087D1A /* Pods-PcCheckUP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.release.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,10 +67,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E78433327DB642D000CCF07 /* DriverKit.framework in Frameworks */,
-				3ED3CC3027D9D56000BC80F9 /* SystemKit in Frameworks */,
 				9D09CCDFC94BE1F71E762925 /* Pods_PcCheckUP.framework in Frameworks */,
 				3E78432F27DB5414000CCF07 /* PCIDriverKit.framework in Frameworks */,
-				3E78432627DAFD2E000CCF07 /* DeviceGuru in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,7 @@
 				3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */,
 				3EAB927B27D86DFE0029C4C5 /* ViewController.swift */,
 				3E72081227E0469500A1E204 /* AboutViewController.swift */,
+				3EC9097227EAE744002B3A7C /* GraphViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -93,6 +103,19 @@
 				3E72081D27E0709300A1E204 /* Extensions.swift */,
 			);
 			path = "Common Files";
+			sourceTree = "<group>";
+		};
+		3E92E63327E1C53A0007884D /* SystemKit */ = {
+			isa = PBXGroup;
+			children = (
+				3E92E63427E1C53A0007884D /* Battery.swift */,
+				3E92E63527E1C53A0007884D /* Info.plist */,
+				3E92E63627E1C53A0007884D /* IOReturn.swift */,
+				3E92E63727E1C53A0007884D /* Process.swift */,
+				3E92E63827E1C53A0007884D /* System.swift */,
+				3E92E63927E1C53A0007884D /* SystemKit.h */,
+			);
+			path = SystemKit;
 			sourceTree = "<group>";
 		};
 		3EAB926D27D86DFE0029C4C5 = {
@@ -116,6 +139,7 @@
 		3EAB927827D86DFE0029C4C5 /* PcCheckUP */ = {
 			isa = PBXGroup;
 			children = (
+				3E92E63327E1C53A0007884D /* SystemKit */,
 				3E72081627E051CA00A1E204 /* Common Files */,
 				3EAB927927D86DFE0029C4C5 /* AppDelegate.swift */,
 				3E72081527E0508D00A1E204 /* StoryBoard */,
@@ -168,8 +192,6 @@
 			);
 			name = PcCheckUP;
 			packageProductDependencies = (
-				3ED3CC2F27D9D56000BC80F9 /* SystemKit */,
-				3E78432527DAFD2E000CCF07 /* DeviceGuru */,
 			);
 			productName = PcCheckUP;
 			productReference = 3EAB927627D86DFE0029C4C5 /* PcCheckUP.app */;
@@ -200,8 +222,6 @@
 			);
 			mainGroup = 3EAB926D27D86DFE0029C4C5;
 			packageReferences = (
-				3ED3CC2E27D9D56000BC80F9 /* XCRemoteSwiftPackageReference "SystemKit" */,
-				3E78432427DAFD2E000CCF07 /* XCRemoteSwiftPackageReference "DeviceGuru" */,
 			);
 			productRefGroup = 3EAB927727D86DFE0029C4C5 /* Products */;
 			projectDirPath = "";
@@ -219,6 +239,7 @@
 			files = (
 				3EAB928127D86E020029C4C5 /* Assets.xcassets in Resources */,
 				3EAB928427D86E020029C4C5 /* Main.storyboard in Resources */,
+				3E92E63B27E1C53A0007884D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +298,14 @@
 				3EAB927C27D86DFE0029C4C5 /* ViewController.swift in Sources */,
 				3EAB927A27D86DFE0029C4C5 /* AppDelegate.swift in Sources */,
 				3E72081E27E0709400A1E204 /* Extensions.swift in Sources */,
+				3EC9097327EAE744002B3A7C /* GraphViewController.swift in Sources */,
+				3E92E63A27E1C53A0007884D /* Battery.swift in Sources */,
 				3E72081827E051DF00A1E204 /* Enums.swift in Sources */,
+				3E92E63E27E1C53A0007884D /* System.swift in Sources */,
 				3EAB927F27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld in Sources */,
+				3E92E63C27E1C53A0007884D /* IOReturn.swift in Sources */,
 				3EAB928D27D87CE70029C4C5 /* SplitViewControllerForButtons.swift in Sources */,
+				3E92E63D27E1C53A0007884D /* Process.swift in Sources */,
 				3E72081A27E061FA00A1E204 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,38 +510,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3E78432427DAFD2E000CCF07 /* XCRemoteSwiftPackageReference "DeviceGuru" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/InderKumarRathore/DeviceGuru";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		3ED3CC2E27D9D56000BC80F9 /* XCRemoteSwiftPackageReference "SystemKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:virajchitnis/SystemKit.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3E78432527DAFD2E000CCF07 /* DeviceGuru */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3E78432427DAFD2E000CCF07 /* XCRemoteSwiftPackageReference "DeviceGuru" */;
-			productName = DeviceGuru;
-		};
-		3ED3CC2F27D9D56000BC80F9 /* SystemKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3ED3CC2E27D9D56000BC80F9 /* XCRemoteSwiftPackageReference "SystemKit" */;
-			productName = SystemKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3EAB927D27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld */ = {
