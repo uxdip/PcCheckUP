@@ -156,7 +156,7 @@ private extension GraphViewController {
     
     func setData() {
         
-        let gradientColors = [ NSColor.clear.cgColor, NSColor.red.cgColor] as CFArray // Colors of the gradient
+        let gradientColors = isLoadButtonPressed! ? [ NSColor.clear.cgColor, NSColor.red.cgColor] as CFArray : [ NSColor.clear.cgColor, NSColor.cyan.cgColor] as CFArray // Colors of the gradient
         let colorLocations:[CGFloat] = [1.0, 0.0] // Positioning of the gradient
         let gradient = CGGradient.init(colorsSpace: CGColorSpaceCreateDeviceRGB(), colors: gradientColors, locations: colorLocations) // Gradient Object
        
@@ -167,7 +167,7 @@ private extension GraphViewController {
         set1.fill = Fill.fillWithLinearGradient(gradient!, angle: 90.0) // Set the Gradient
         set1.drawFilledEnabled = true // Draw the Gradient
         set1.lineWidth = 0
-        set1.setColor(.red)
+        set1.setColor(isLoadButtonPressed! ? .red : .cyan)
         let data = LineChartData(dataSet: set1)
         // data.setDrawValues(false)
         lineChartView.data = data
