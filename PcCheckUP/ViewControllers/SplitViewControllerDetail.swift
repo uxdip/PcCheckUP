@@ -7,7 +7,7 @@
 
 import Cocoa
 
-import GBDeviceInfo
+//import GBDeviceInfo
 
 class SplitViewControllerDetail: NSViewController {
     @IBOutlet var textView: NSTextView!

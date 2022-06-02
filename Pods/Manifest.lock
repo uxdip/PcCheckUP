@@ -1,28 +1,3 @@
-PODS:
-  - Charts (3.6.0):
-    - Charts/Core (= 3.6.0)
-  - Charts/Core (3.6.0)
-  - GBDeviceInfo (6.7.0):
-    - GBDeviceInfo/Core (= 6.7.0)
-  - GBDeviceInfo/Core (6.7.0)
-  - TinyConstraints (4.0.2)
+PODFILE CHECKSUM: 1667bd9fdd3ce6d06546295129df039570403373
 
-DEPENDENCIES:
-  - Charts (~> 3.6)
-  - GBDeviceInfo (~> 6.0)
-  - TinyConstraints (~> 4.0)
-
-SPEC REPOS:
-  trunk:
-    - Charts
-    - GBDeviceInfo
-    - TinyConstraints
-
-SPEC CHECKSUMS:
-  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
-  GBDeviceInfo: c1a46e3fe1b5406a0ebaa60f8a871cfed9da9a42
-  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
-
-PODFILE CHECKSUM: f8d309a261e26d5e922ac616d2b3e8a6f09e79d9
-
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

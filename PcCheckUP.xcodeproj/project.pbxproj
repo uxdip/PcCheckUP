@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,6 @@
 		3E72081C27E06A7A00A1E204 /* SplitViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */; };
 		3E72081E27E0709400A1E204 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081D27E0709300A1E204 /* Extensions.swift */; };
 		3E78432D27DB5379000CCF07 /* PcCheckUP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78432C27DB5379000CCF07 /* PcCheckUP.m */; };
-		3E78432F27DB5414000CCF07 /* PCIDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78432727DB4F83000CCF07 /* PCIDriverKit.framework */; };
-		3E78433327DB642D000CCF07 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78433227DB642D000CCF07 /* DriverKit.framework */; };
 		3E92E63A27E1C53A0007884D /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63427E1C53A0007884D /* Battery.swift */; };
 		3E92E63B27E1C53A0007884D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E92E63527E1C53A0007884D /* Info.plist */; };
 		3E92E63C27E1C53A0007884D /* IOReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92E63627E1C53A0007884D /* IOReturn.swift */; };
@@ -27,11 +25,16 @@
 		3EAB928427D86E020029C4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB928227D86E020029C4C5 /* Main.storyboard */; };
 		3EAB928D27D87CE70029C4C5 /* SplitViewControllerForButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */; };
 		3EC9097327EAE744002B3A7C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9097227EAE744002B3A7C /* GraphViewController.swift */; };
-		9D09CCDFC94BE1F71E762925 /* Pods_PcCheckUP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019ADBAC66E003EEBBE9C5FF /* Pods_PcCheckUP.framework */; };
+		FA29077328488FF100B505C1 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = FA29077228488FF100B505C1 /* Charts */; };
+		FA29077F2848944C00B505C1 /* Pods_PcCheckUP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */; };
+		FA2907932848966900B505C1 /* GBDeviceInfo_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2907822848966900B505C1 /* GBDeviceInfo_OSX.m */; };
+		FA2907962848966900B505C1 /* GBDeviceInfo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA29078D2848966900B505C1 /* GBDeviceInfo-Info.plist */; };
+		FA2907972848966900B505C1 /* GBDeviceInfo_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2907902848966900B505C1 /* GBDeviceInfo_Common.m */; };
+		FA2907982848966900B505C1 /* GBDeviceInfo_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2907922848966900B505C1 /* GBDeviceInfo_iOS.m */; };
+		FA29079E28489A5600B505C1 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = FA29079D28489A5600B505C1 /* TinyConstraints */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		019ADBAC66E003EEBBE9C5FF /* Pods_PcCheckUP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PcCheckUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E72081227E0469500A1E204 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = PcCheckUP/ViewControllers/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
 		3E72081727E051DF00A1E204 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		3E72081927E061FA00A1E204 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +62,23 @@
 		3EC9097227EAE744002B3A7C /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		79162F46A226C49194C58B6D /* Pods-PcCheckUP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.debug.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD654FDCE6B55CD4C087D1A /* Pods-PcCheckUP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.release.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.release.xcconfig"; sourceTree = "<group>"; };
+		EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PcCheckUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2907742848906E00B505C1 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA290778284890DA00B505C1 /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2907822848966900B505C1 /* GBDeviceInfo_OSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDeviceInfo_OSX.m; sourceTree = "<group>"; };
+		FA2907832848966900B505C1 /* GBDeviceInfo_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo_Common.h; sourceTree = "<group>"; };
+		FA2907842848966900B505C1 /* GBDeviceInfoTypes_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfoTypes_Common.h; sourceTree = "<group>"; };
+		FA2907852848966900B505C1 /* GBDeviceInfoTypes_OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfoTypes_OSX.h; sourceTree = "<group>"; };
+		FA2907862848966900B505C1 /* GBDeviceInfo_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo_iOS.h; sourceTree = "<group>"; };
+		FA2907872848966900B505C1 /* GBDeviceInfo_OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo_OSX.h; sourceTree = "<group>"; };
+		FA2907882848966900B505C1 /* GBDeviceInfoTypes_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfoTypes_iOS.h; sourceTree = "<group>"; };
+		FA29078B2848966900B505C1 /* GBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo.h; sourceTree = "<group>"; };
+		FA29078D2848966900B505C1 /* GBDeviceInfo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GBDeviceInfo-Info.plist"; sourceTree = "<group>"; };
+		FA29078E2848966900B505C1 /* GBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo.h; sourceTree = "<group>"; };
+		FA29078F2848966900B505C1 /* GBDeviceInfo_Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfo_Subclass.h; sourceTree = "<group>"; };
+		FA2907902848966900B505C1 /* GBDeviceInfo_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDeviceInfo_Common.m; sourceTree = "<group>"; };
+		FA2907912848966900B505C1 /* GBDeviceInfoInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfoInterface.h; sourceTree = "<group>"; };
+		FA2907922848966900B505C1 /* GBDeviceInfo_iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDeviceInfo_iOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E78433327DB642D000CCF07 /* DriverKit.framework in Frameworks */,
-				9D09CCDFC94BE1F71E762925 /* Pods_PcCheckUP.framework in Frameworks */,
-				3E78432F27DB5414000CCF07 /* PCIDriverKit.framework in Frameworks */,
+				FA29077328488FF100B505C1 /* Charts in Frameworks */,
+				FA29077F2848944C00B505C1 /* Pods_PcCheckUP.framework in Frameworks */,
+				FA29079E28489A5600B505C1 /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +159,7 @@
 		3EAB927827D86DFE0029C4C5 /* PcCheckUP */ = {
 			isa = PBXGroup;
 			children = (
+				FA2907812848966900B505C1 /* GBDeviceInfo */,
 				3E92E63327E1C53A0007884D /* SystemKit */,
 				3E72081627E051CA00A1E204 /* Common Files */,
 				3EAB927927D86DFE0029C4C5 /* AppDelegate.swift */,
@@ -157,9 +178,11 @@
 		472D2891E990E3E485447F22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA290778284890DA00B505C1 /* GBDeviceInfo.framework */,
+				FA2907742848906E00B505C1 /* TinyConstraints.framework */,
 				3E78433227DB642D000CCF07 /* DriverKit.framework */,
 				3E78432727DB4F83000CCF07 /* PCIDriverKit.framework */,
-				019ADBAC66E003EEBBE9C5FF /* Pods_PcCheckUP.framework */,
+				EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,6 +196,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA2907812848966900B505C1 /* GBDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FA2907822848966900B505C1 /* GBDeviceInfo_OSX.m */,
+				FA2907832848966900B505C1 /* GBDeviceInfo_Common.h */,
+				FA2907842848966900B505C1 /* GBDeviceInfoTypes_Common.h */,
+				FA2907852848966900B505C1 /* GBDeviceInfoTypes_OSX.h */,
+				FA2907862848966900B505C1 /* GBDeviceInfo_iOS.h */,
+				FA2907872848966900B505C1 /* GBDeviceInfo_OSX.h */,
+				FA2907882848966900B505C1 /* GBDeviceInfoTypes_iOS.h */,
+				FA29078B2848966900B505C1 /* GBDeviceInfo.h */,
+				FA29078C2848966900B505C1 /* Supporting Files */,
+				FA29078F2848966900B505C1 /* GBDeviceInfo_Subclass.h */,
+				FA2907902848966900B505C1 /* GBDeviceInfo_Common.m */,
+				FA2907912848966900B505C1 /* GBDeviceInfoInterface.h */,
+				FA2907922848966900B505C1 /* GBDeviceInfo_iOS.m */,
+			);
+			path = GBDeviceInfo;
+			sourceTree = "<group>";
+		};
+		FA29078C2848966900B505C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA29078D2848966900B505C1 /* GBDeviceInfo-Info.plist */,
+				FA29078E2848966900B505C1 /* GBDeviceInfo.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,7 +236,6 @@
 				3EAB927227D86DFE0029C4C5 /* Sources */,
 				3EAB927327D86DFE0029C4C5 /* Frameworks */,
 				3EAB927427D86DFE0029C4C5 /* Resources */,
-				8FB93896FB3E0A27F95F0AD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +243,8 @@
 			);
 			name = PcCheckUP;
 			packageProductDependencies = (
+				FA29077228488FF100B505C1 /* Charts */,
+				FA29079D28489A5600B505C1 /* TinyConstraints */,
 			);
 			productName = PcCheckUP;
 			productReference = 3EAB927627D86DFE0029C4C5 /* PcCheckUP.app */;
@@ -222,6 +275,8 @@
 			);
 			mainGroup = 3EAB926D27D86DFE0029C4C5;
 			packageReferences = (
+				FA29077128488FF100B505C1 /* XCRemoteSwiftPackageReference "Charts" */,
+				FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
 			);
 			productRefGroup = 3EAB927727D86DFE0029C4C5 /* Products */;
 			projectDirPath = "";
@@ -239,6 +294,7 @@
 			files = (
 				3EAB928127D86E020029C4C5 /* Assets.xcassets in Resources */,
 				3EAB928427D86E020029C4C5 /* Main.storyboard in Resources */,
+				FA2907962848966900B505C1 /* GBDeviceInfo-Info.plist in Resources */,
 				3E92E63B27E1C53A0007884D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,23 +324,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8FB93896FB3E0A27F95F0AD5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -295,14 +334,17 @@
 				3E72081C27E06A7A00A1E204 /* SplitViewControllerDetail.swift in Sources */,
 				3E72081327E0469500A1E204 /* AboutViewController.swift in Sources */,
 				3E78432D27DB5379000CCF07 /* PcCheckUP.m in Sources */,
+				FA2907972848966900B505C1 /* GBDeviceInfo_Common.m in Sources */,
 				3EAB927C27D86DFE0029C4C5 /* ViewController.swift in Sources */,
 				3EAB927A27D86DFE0029C4C5 /* AppDelegate.swift in Sources */,
 				3E72081E27E0709400A1E204 /* Extensions.swift in Sources */,
 				3EC9097327EAE744002B3A7C /* GraphViewController.swift in Sources */,
+				FA2907982848966900B505C1 /* GBDeviceInfo_iOS.m in Sources */,
 				3E92E63A27E1C53A0007884D /* Battery.swift in Sources */,
 				3E72081827E051DF00A1E204 /* Enums.swift in Sources */,
 				3E92E63E27E1C53A0007884D /* System.swift in Sources */,
 				3EAB927F27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld in Sources */,
+				FA2907932848966900B505C1 /* GBDeviceInfo_OSX.m in Sources */,
 				3E92E63C27E1C53A0007884D /* IOReturn.swift in Sources */,
 				3EAB928D27D87CE70029C4C5 /* SplitViewControllerForButtons.swift in Sources */,
 				3E92E63D27E1C53A0007884D /* Process.swift in Sources */,
@@ -447,16 +489,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PcCheckUP/PcCheckUP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4NU36J8PP2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PcCheckUP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.debuggerlab.PcCheckUP;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.uxd.PcCheckUP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PcCheckUP/PcCheckUP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -472,16 +515,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PcCheckUP/PcCheckUP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4NU36J8PP2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PcCheckUP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.debuggerlab.PcCheckUP;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.uxd.PcCheckUP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PcCheckUP/PcCheckUP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -510,6 +554,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA29077128488FF100B505C1 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = exactVersion;
+				version = 3.6.0;
+			};
+		};
+		FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA29077228488FF100B505C1 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA29077128488FF100B505C1 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		FA29079D28489A5600B505C1 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3EAB927D27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld */ = {

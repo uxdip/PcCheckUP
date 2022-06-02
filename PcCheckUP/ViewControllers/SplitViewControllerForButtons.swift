@@ -7,7 +7,7 @@
 
 import Cocoa
 
-import GBDeviceInfo
+//import GBDeviceInfo
 
 
 

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import GBDeviceInfo
+//import GBDeviceInfo
 
 extension SplitViewControllerDetail {
 
