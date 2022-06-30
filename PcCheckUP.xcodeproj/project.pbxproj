@@ -26,7 +26,6 @@
 		3EAB928D27D87CE70029C4C5 /* SplitViewControllerForButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */; };
 		3EC9097327EAE744002B3A7C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9097227EAE744002B3A7C /* GraphViewController.swift */; };
 		FA29077328488FF100B505C1 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = FA29077228488FF100B505C1 /* Charts */; };
-		FA29077F2848944C00B505C1 /* Pods_PcCheckUP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */; };
 		FA2907932848966900B505C1 /* GBDeviceInfo_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2907822848966900B505C1 /* GBDeviceInfo_OSX.m */; };
 		FA2907962848966900B505C1 /* GBDeviceInfo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA29078D2848966900B505C1 /* GBDeviceInfo-Info.plist */; };
 		FA2907972848966900B505C1 /* GBDeviceInfo_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2907902848966900B505C1 /* GBDeviceInfo_Common.m */; };
@@ -87,7 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA29077328488FF100B505C1 /* Charts in Frameworks */,
-				FA29077F2848944C00B505C1 /* Pods_PcCheckUP.framework in Frameworks */,
 				FA29079E28489A5600B505C1 /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
