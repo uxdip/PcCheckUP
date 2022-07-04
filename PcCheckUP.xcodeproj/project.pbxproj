@@ -187,7 +187,6 @@
 			children = (
 				3EAB927827D86DFE0029C4C5 /* PcCheckUP */,
 				3EAB927727D86DFE0029C4C5 /* Products */,
-				80DEED380BFCA5A86C5FF511 /* Pods */,
 				472D2891E990E3E485447F22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -229,13 +228,6 @@
 				3E78432727DB4F83000CCF07 /* PCIDriverKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		80DEED380BFCA5A86C5FF511 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		FA2907812848966900B505C1 /* GBDeviceInfo */ = {
@@ -317,7 +309,7 @@
 			mainGroup = 3EAB926D27D86DFE0029C4C5;
 			packageReferences = (
 				FA29077128488FF100B505C1 /* XCRemoteSwiftPackageReference "Charts" */,
-				FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
+				FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
 			);
 			productRefGroup = 3EAB927727D86DFE0029C4C5 /* Products */;
 			projectDirPath = "";
@@ -583,7 +575,7 @@
 				version = 3.6.0;
 			};
 		};
-		FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
+		FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -601,7 +593,7 @@
 		};
 		FA29079D28489A5600B505C1 /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
+			package = FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
 			productName = TinyConstraints;
 		};
 /* End XCSwiftPackageProductDependency section */
