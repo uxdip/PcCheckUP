@@ -70,9 +70,6 @@
 		3EAB928627D86E020029C4C5 /* PcCheckUP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PcCheckUP.entitlements; sourceTree = "<group>"; };
 		3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewControllerForButtons.swift; sourceTree = "<group>"; };
 		3EC9097227EAE744002B3A7C /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
-		79162F46A226C49194C58B6D /* Pods-PcCheckUP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.debug.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.debug.xcconfig"; sourceTree = "<group>"; };
-		8CD654FDCE6B55CD4C087D1A /* Pods-PcCheckUP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PcCheckUP.release.xcconfig"; path = "Target Support Files/Pods-PcCheckUP/Pods-PcCheckUP.release.xcconfig"; sourceTree = "<group>"; };
-		EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PcCheckUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2907742848906E00B505C1 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA290778284890DA00B505C1 /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2907822848966900B505C1 /* GBDeviceInfo_OSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDeviceInfo_OSX.m; sourceTree = "<group>"; };
@@ -230,7 +227,6 @@
 				FA2907742848906E00B505C1 /* TinyConstraints.framework */,
 				3E78433227DB642D000CCF07 /* DriverKit.framework */,
 				3E78432727DB4F83000CCF07 /* PCIDriverKit.framework */,
-				EC8006FDF2D492FF4B2340BD /* Pods_PcCheckUP.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,8 +234,6 @@
 		80DEED380BFCA5A86C5FF511 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79162F46A226C49194C58B6D /* Pods-PcCheckUP.debug.xcconfig */,
-				8CD654FDCE6B55CD4C087D1A /* Pods-PcCheckUP.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -280,7 +274,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EAB928927D86E020029C4C5 /* Build configuration list for PBXNativeTarget "PcCheckUP" */;
 			buildPhases = (
-				1355B741411836899513BFD7 /* [CP] Check Pods Manifest.lock */,
 				3EAB927227D86DFE0029C4C5 /* Sources */,
 				3EAB927327D86DFE0029C4C5 /* Frameworks */,
 				3EAB927427D86DFE0029C4C5 /* Resources */,
@@ -324,7 +317,7 @@
 			mainGroup = 3EAB926D27D86DFE0029C4C5;
 			packageReferences = (
 				FA29077128488FF100B505C1 /* XCRemoteSwiftPackageReference "Charts" */,
-				FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
 			);
 			productRefGroup = 3EAB927727D86DFE0029C4C5 /* Products */;
 			projectDirPath = "";
@@ -348,31 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1355B741411836899513BFD7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PcCheckUP-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EAB927227D86DFE0029C4C5 /* Sources */ = {
@@ -536,7 +504,6 @@
 		};
 		3EAB928A27D86E020029C4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79162F46A226C49194C58B6D /* Pods-PcCheckUP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -562,7 +529,6 @@
 		};
 		3EAB928B27D86E020029C4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CD654FDCE6B55CD4C087D1A /* Pods-PcCheckUP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -617,7 +583,7 @@
 				version = 3.6.0;
 			};
 		};
-		FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+		FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -635,7 +601,7 @@
 		};
 		FA29079D28489A5600B505C1 /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			package = FA29079C28489A5600B505C1 /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
 			productName = TinyConstraints;
 		};
 /* End XCSwiftPackageProductDependency section */
