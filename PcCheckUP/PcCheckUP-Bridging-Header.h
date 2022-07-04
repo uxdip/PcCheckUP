@@ -4,3 +4,4 @@
 
 //#import<PCIDriverKit>
 #import "GBDeviceInfo.h"
+#import "SMCKit.h"

@@ -19,7 +19,7 @@ extension SplitViewControllerDetail {
         case .systemInformation:
             stringLine = "// MACHINE STATUS" +   getCPUinfo() +  getMemoryInfo() + getOSInfo() + getBatteryInfo()
         
-            
+            startMain()
         case .hardware:
             stringLine = "// MACHINE STATUS" +  getMemoryInfo()
         case .os:
