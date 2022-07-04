@@ -16,8 +16,8 @@
 		05237219B923BA66DFE26EC428587018 /* Pods-PcCheckUP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PcCheckUP-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0971DCC652EC43EFE292800D7CE77B2B /* Pods-PcCheckUP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PcCheckUP-acknowledgements.plist"; sourceTree = "<group>"; };
 		303E8B6734B1E8E9BA45EA0BEA2AC76C /* Pods-PcCheckUP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PcCheckUP-Info.plist"; sourceTree = "<group>"; };
-		472C59B62010300B95C5D0C57DC85FF4 /* Pods-PcCheckUP */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PcCheckUP"; path = Pods_PcCheckUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		472C59B62010300B95C5D0C57DC85FF4 /* Pods_PcCheckUP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PcCheckUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B428C5E49652142DED384CF3745E1EF0 /* Pods-PcCheckUP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PcCheckUP.modulemap"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		D60CAD374B1F7EBBEE4A6CE1E5AA8584 /* Pods-PcCheckUP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PcCheckUP.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		C92E73DD89D01478A7961D1A4B4BFB29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				472C59B62010300B95C5D0C57DC85FF4 /* Pods-PcCheckUP */,
+				472C59B62010300B95C5D0C57DC85FF4 /* Pods_PcCheckUP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			);
 			name = "Pods-PcCheckUP";
 			productName = Pods_PcCheckUP;
-			productReference = 472C59B62010300B95C5D0C57DC85FF4 /* Pods-PcCheckUP */;
+			productReference = 472C59B62010300B95C5D0C57DC85FF4 /* Pods_PcCheckUP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -310,7 +310,6 @@
 			baseConfigurationReference = FF9B2F6BE10CD45FA8ED7E9667866189 /* Pods-PcCheckUP.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -347,7 +346,6 @@
 			baseConfigurationReference = D60CAD374B1F7EBBEE4A6CE1E5AA8584 /* Pods-PcCheckUP.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
