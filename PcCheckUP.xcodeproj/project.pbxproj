@@ -90,38 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18C7F1D1287D60F700C599DD /* SMCKit */ = {
-			isa = PBXGroup;
-			children = (
-				18C7F1D2287D60F700C599DD /* SMCKitTool */,
-				18C7F1D4287D60F700C599DD /* SMCKit */,
-			);
-			name = SMCKit;
-			path = ../../../Desktop/SMCKit;
-			sourceTree = "<group>";
-		};
-		18C7F1D2287D60F700C599DD /* SMCKitTool */ = {
-			isa = PBXGroup;
-			children = (
-				18C7F1D3287D60F700C599DD /* lib */,
-			);
-			path = SMCKitTool;
-			sourceTree = "<group>";
-		};
-		18C7F1D3287D60F700C599DD /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		18C7F1D4287D60F700C599DD /* SMCKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SMCKit;
-			sourceTree = "<group>";
-		};
 		3E72081427E0507600A1E204 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +153,6 @@
 		3EAB927827D86DFE0029C4C5 /* PcCheckUP */ = {
 			isa = PBXGroup;
 			children = (
-				18C7F1D1287D60F700C599DD /* SMCKit */,
 				FA2907812848966900B505C1 /* GBDeviceInfo */,
 				3E92E63327E1C53A0007884D /* SystemKit */,
 				3E72081627E051CA00A1E204 /* Common Files */,
