@@ -22,6 +22,7 @@ extension SplitViewControllerDetail {
             startMain()
         case .hardware:
             stringLine = "// MACHINE STATUS" +  getMemoryInfo()
+            //setMinFanSpeed(fanId: 0, fanSpeed: )
         case .os:
             stringLine = "// MACHINE STATUS" + getOSInfo()
         case .network:
