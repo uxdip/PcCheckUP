@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="PcCheckUP" id="1Xt-HY-uBw">
+                            <menuItem title="DevPcCheckUP" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="PcCheckUP" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="DevPcCheckUP" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About PcCheckUP" id="5kV-Vb-QxS">
+                                        <menuItem title="About DevPcCheckUP" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -30,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide PcCheckUP" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide DevPcCheckUP" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit PcCheckUP" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit DevPcCheckUP" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -661,7 +660,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="PcCheckUP Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="DevPcCheckUP Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -783,10 +782,10 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSh-hW-oRW">
-                                                <rect key="frame" x="67" y="112" width="132" height="56"/>
+                                                <rect key="frame" x="66" y="112" width="134" height="56"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="taU-Xu-7SI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="61" height="56"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="62" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="56" id="qWj-ym-cBh"/>
                                                         </constraints>
@@ -799,7 +798,7 @@
                                                         </connections>
                                                     </button>
                                                     <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jgk-JU-Pxb">
-                                                        <rect key="frame" x="71" y="0.0" width="61" height="56"/>
+                                                        <rect key="frame" x="72" y="0.0" width="62" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="56" id="lIp-8Z-x2J"/>
                                                         </constraints>
@@ -822,10 +821,10 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fX7-nC-Uyl">
-                                                <rect key="frame" x="43" y="56" width="180" height="56"/>
+                                                <rect key="frame" x="42" y="56" width="182" height="56"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="0rg-Td-U3N">
-                                                        <rect key="frame" x="0.0" y="0.0" width="85" height="56"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="56" id="P4w-5R-OZP"/>
                                                         </constraints>
@@ -839,7 +838,7 @@
                                                         </connections>
                                                     </button>
                                                     <button verticalHuggingPriority="750" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vrl-76-cfb">
-                                                        <rect key="frame" x="95" y="0.0" width="85" height="56"/>
+                                                        <rect key="frame" x="96" y="0.0" width="86" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="56" id="b6f-97-s1V"/>
                                                         </constraints>
@@ -1126,7 +1125,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="288"/>
                                         <clipView key="contentView" drawsBackground="NO" id="Ctv-ZF-9Az">
                                             <rect key="frame" x="0.0" y="0.0" width="328" height="288"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="PZd-t8-9xs">
                                                     <rect key="frame" x="0.0" y="0.0" width="328" height="288"/>
