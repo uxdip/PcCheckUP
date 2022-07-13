@@ -12,7 +12,8 @@
 		18C7F1DE287D627300C599DD /* smcKitDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F1D8287D627300C599DD /* smcKitDev.swift */; };
 		18C7F1DF287D627300C599DD /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F1D9287D627300C599DD /* StringExtensions.swift */; };
 		18C7F1E0287D627300C599DD /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F1DB287D627300C599DD /* SMC.swift */; };
-		3E72081327E0469500A1E204 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081227E0469500A1E204 /* AboutViewController.swift */; };
+		18C7F1EC287D6B1800C599DD /* FanAndKeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F1EB287D6B1800C599DD /* FanAndKeyboardController.swift */; };
+		18F8FA10287D6D3B00639504 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8FA0F287D6D3A00639504 /* AboutViewController.swift */; };
 		3E72081827E051DF00A1E204 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081727E051DF00A1E204 /* Enums.swift */; };
 		3E72081A27E061FA00A1E204 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081927E061FA00A1E204 /* SplitViewController.swift */; };
 		3E72081C27E06A7A00A1E204 /* SplitViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */; };
@@ -45,7 +46,8 @@
 		18C7F1D9287D627300C599DD /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		18C7F1DA287D627300C599DD /* SMCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCKit.h; sourceTree = "<group>"; };
 		18C7F1DB287D627300C599DD /* SMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMC.swift; sourceTree = "<group>"; };
-		3E72081227E0469500A1E204 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = PcCheckUP/ViewControllers/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		18C7F1EB287D6B1800C599DD /* FanAndKeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanAndKeyboardController.swift; sourceTree = "<group>"; };
+		18F8FA0F287D6D3A00639504 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		3E72081727E051DF00A1E204 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		3E72081927E061FA00A1E204 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewControllerDetail.swift; sourceTree = "<group>"; };
@@ -130,6 +132,32 @@
 			path = SMCKit;
 			sourceTree = "<group>";
 		};
+		18F8FA0E287D6D0900639504 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3E72081527E0508D00A1E204 /* StoryBoard */,
+				3E72081427E0507600A1E204 /* ViewControllers */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		18F8FA11287D6D6F00639504 /* UIViewAndControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18F8FA12287D6D8300639504 /* SwiftUI */,
+				18F8FA0E287D6D0900639504 /* UIKit */,
+			);
+			path = UIViewAndControllers;
+			sourceTree = "<group>";
+		};
+		18F8FA12287D6D8300639504 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				18C7F1EB287D6B1800C599DD /* FanAndKeyboardController.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		3E72081427E0507600A1E204 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +165,7 @@
 				3EAB928C27D87CE70029C4C5 /* SplitViewControllerForButtons.swift */,
 				3E72081B27E06A7A00A1E204 /* SplitViewControllerDetail.swift */,
 				3EAB927B27D86DFE0029C4C5 /* ViewController.swift */,
-				3E72081227E0469500A1E204 /* AboutViewController.swift */,
+				18F8FA0F287D6D3A00639504 /* AboutViewController.swift */,
 				3EC9097227EAE744002B3A7C /* GraphViewController.swift */,
 			);
 			path = ViewControllers;
@@ -193,13 +221,12 @@
 		3EAB927827D86DFE0029C4C5 /* PcCheckUP */ = {
 			isa = PBXGroup;
 			children = (
+				18F8FA11287D6D6F00639504 /* UIViewAndControllers */,
 				18C7F1D5287D627300C599DD /* FanKit */,
 				FA2907812848966900B505C1 /* GBDeviceInfo */,
 				3E92E63327E1C53A0007884D /* SystemKit */,
 				3E72081627E051CA00A1E204 /* Common Files */,
 				3EAB927927D86DFE0029C4C5 /* AppDelegate.swift */,
-				3E72081527E0508D00A1E204 /* StoryBoard */,
-				3E72081427E0507600A1E204 /* ViewControllers */,
 				3E78432E27DB53BB000CCF07 /* PcCheckUP-Bridging-Header.h */,
 				3EAB928027D86E020029C4C5 /* Assets.xcassets */,
 				3EAB928527D86E020029C4C5 /* Info.plist */,
@@ -332,10 +359,10 @@
 			files = (
 				18C7F1E0287D627300C599DD /* SMC.swift in Sources */,
 				3E72081C27E06A7A00A1E204 /* SplitViewControllerDetail.swift in Sources */,
-				3E72081327E0469500A1E204 /* AboutViewController.swift in Sources */,
 				3E78432D27DB5379000CCF07 /* PcCheckUP.m in Sources */,
 				FA2907972848966900B505C1 /* GBDeviceInfo_Common.m in Sources */,
 				3EAB927C27D86DFE0029C4C5 /* ViewController.swift in Sources */,
+				18C7F1EC287D6B1800C599DD /* FanAndKeyboardController.swift in Sources */,
 				3EAB927A27D86DFE0029C4C5 /* AppDelegate.swift in Sources */,
 				18C7F1DF287D627300C599DD /* StringExtensions.swift in Sources */,
 				3E72081E27E0709400A1E204 /* Extensions.swift in Sources */,
@@ -347,6 +374,7 @@
 				18C7F1DD287D627300C599DD /* Option.swift in Sources */,
 				3EAB927F27D86DFE0029C4C5 /* PcCheckUP.xcdatamodeld in Sources */,
 				18C7F1DE287D627300C599DD /* smcKitDev.swift in Sources */,
+				18F8FA10287D6D3B00639504 /* AboutViewController.swift in Sources */,
 				FA2907932848966900B505C1 /* GBDeviceInfo_OSX.m in Sources */,
 				3E92E63C27E1C53A0007884D /* IOReturn.swift in Sources */,
 				18C7F1DC287D627300C599DD /* CommandLine.swift in Sources */,
